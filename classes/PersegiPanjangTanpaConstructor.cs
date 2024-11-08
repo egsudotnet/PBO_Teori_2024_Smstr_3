@@ -2,12 +2,12 @@ using System;
 
 namespace MyApplication
 {
-  class PersegiPanjang
+  class PersegiPanjangTanpaConstructor
   {
     public double panjang;
     public double lebar;
     
-    public double Luas()
+    public double HitungLuas()
     {
       return panjang * lebar;
     }

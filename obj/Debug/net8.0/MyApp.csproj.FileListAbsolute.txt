@@ -12,3 +12,4 @@ D:\Dosen\Materi\PBO\PBO-C#\Teori\MyApp\obj\Debug\net8.0\refint\MyApp.dll
 D:\Dosen\Materi\PBO\PBO-C#\Teori\MyApp\obj\Debug\net8.0\MyApp.pdb
 D:\Dosen\Materi\PBO\PBO-C#\Teori\MyApp\obj\Debug\net8.0\MyApp.genruntimeconfig.cache
 D:\Dosen\Materi\PBO\PBO-C#\Teori\MyApp\obj\Debug\net8.0\ref\MyApp.dll
+D:\Dosen\Materi\PBO\PBO-C#\Teori\MyApp\obj\Debug\net8.0\MyApp.sourcelink.json

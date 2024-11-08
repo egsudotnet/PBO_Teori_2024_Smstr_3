@@ -7,30 +7,20 @@ namespace MyApplication
         static void Main(string[] args)
         {
 
-            // Tanpa Contructor
 
-            Console.WriteLine("Tanpa Contructor");
-            CarTanpaConstructor Ford = new CarTanpaConstructor();
-            Ford.model = "Mustang";
-            Ford.color = "red";
-            Ford.year = 1969;
-
-            CarTanpaConstructor Opel = new CarTanpaConstructor();
-            Opel.model = "Astra";
-            Opel.color = "white";
-            Opel.year = 2005;
-
-            Console.WriteLine(Ford.model);
-            Console.WriteLine(Opel.model);
+            Console.WriteLine("Tanpa Constructor"); 
+            PersegiPanjangTanpaConstructor myObj = new PersegiPanjangTanpaConstructor(); 
+            myObj.lebar = 6;
+            myObj.panjang = 8; 
+            Console.WriteLine("Luas = " + myObj.HitungLuas()); 
 
 
-            // Dengan Constructor
-            Console.WriteLine("Dengan Contructor");
-            CarDenganConstructor carDenganConstructor1 = new CarDenganConstructor("Mustang", "red", 1969);
-            CarDenganConstructor carDenganConstructor2 = new CarDenganConstructor("Astra", "white", 2005);
-
-            Console.WriteLine(carDenganConstructor1.model);
-            Console.WriteLine(carDenganConstructor2.model);
+            Console.WriteLine("Dengan Constructor"); 
+            PersegiPanjangDenganConstructor myObj1 = new PersegiPanjangDenganConstructor(6,8); 
+            Console.WriteLine("Luas = " + myObj.HitungLuas()); 
+             
+            PersegiPanjangDenganConstructor myObj2 = new PersegiPanjangDenganConstructor(7,9); 
+            Console.WriteLine("Luas = " + myObj2.HitungLuas()); 
 
         }
     }
