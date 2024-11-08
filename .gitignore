@@ -41,3 +41,7 @@ bld/
 msbuild.log
 msbuild.err
 msbuild.wrn
+obj/Debug/net8.0/MyApp.AssemblyInfo.cs
+obj/Debug/net8.0/MyApp.AssemblyInfo.cs
+obj/Debug/net8.0/MyApp.AssemblyInfo.cs
+obj/Debug/net8.0/MyApp.AssemblyInfoInputs.cache
