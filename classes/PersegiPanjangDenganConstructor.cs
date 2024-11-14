@@ -4,8 +4,8 @@ namespace MyApplication
 {
   class PersegiPanjangDenganConstructor
   {
-    public double panjang;
-    public double lebar;
+    private double panjang;
+    private double lebar;
     
     public PersegiPanjangDenganConstructor(double panjangPersegi, double lebarLebar){
       panjang = panjangPersegi;
