@@ -6,29 +6,17 @@ namespace MyApplication
     {
         static void Main(string[] args)
         {
-
-            Console.WriteLine("Kubus"); 
-            KubusTanpaInheritance myObj = new KubusTanpaInheritance(); 
-            myObj.lebar = 6;
-            myObj.panjang = 8; 
-            myObj.tinggi = 10; 
-            Console.WriteLine("Luas Kubus= " + myObj.HitungLuas()); 
-
-            // // // Console.WriteLine("Tanpa Constructor"); 
-            // // // PersegiPanjangTanpaConstructor myObj = new PersegiPanjangTanpaConstructor(); 
-            // // // myObj.lebar = 6;
-            // // // myObj.panjang = 8; 
-            // // // Console.WriteLine("Luas = " + myObj.HitungLuas()); 
-
-
-            // // // Console.WriteLine("Dengan Constructor"); 
-            // // // PersegiPanjangDenganConstructor myObj1 = new PersegiPanjangDenganConstructor(6,8); 
-            
-            // // // Console.WriteLine("Luas = " + myObj.HitungLuas()); 
-             
-            // // // PersegiPanjangDenganConstructor myObj2 = new PersegiPanjangDenganConstructor(7,9); 
-            // // // Console.WriteLine("Luas = " + myObj2.HitungLuas()); 
-
+ 
+            // Create instances of different shapes
+            Bentuk kubus = new Kubus(3); // Panjang sisi = 3
+            Bentuk balok = new Balok(4, 5, 6); // Panjang = 4, Lebar = 5, Tinggi = 6
+           
+            // Calculate and display the volumes
+            Console.WriteLine("Volume kubus: " + kubus.HitungVolume());
+            Console.WriteLine("Volume balok: " + balok.HitungVolume());
+          
+            Console.WriteLine("\nTekan tombol apapun untuk keluar...");
+            Console.ReadKey();
         }
     }
 }
